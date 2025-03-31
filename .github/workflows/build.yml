@@ -36,7 +36,7 @@ jobs:
         run: yarn run slidev build
 
       - name: Copy pictures
-        run: cp -R pictures dist/
+        run: cp -R public dist/
 
       - name: Archive production artifacts
         if: github.event_name != 'pull_request'
