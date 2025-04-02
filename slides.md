@@ -1139,7 +1139,8 @@ const connectWs = () => {
 - Raspbian
   - Too bloated for this
 - [gokrazy](https://gokrazy.org/)
-  - Doesn't support graphics output (yet?) unfortunately
+  - <span v-mark.red.strike-through="7">Doesn't support graphics output (yet?) unfortunately</span>
+  - Last minute edit: According to [@stapelberg](https://github.com/stapelberg/) it does 🎉
 - [Arch Linux ARM (Alarm)](https://archlinuxarm.org/)
   - Considered, but bootstrapping was a bit difficult
 - Alpine Linux
