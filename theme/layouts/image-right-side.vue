@@ -15,9 +15,9 @@ const props = defineProps({
 
 <template>
   <div :class="`grid grid-cols-${props.amount + 1} w-full h-full`">
-    <div :class="`col-span-${props.amount} slidev-layout default image-right`">
+    <div :class="`col-span-${props.amount} slidev-layout default`">
       <slot />
     </div>
-    <img :src="props.image" class="h-full object-contain col-span-1 justify-self-end mr-10" />
+    <img :src="props.image" class="h-full object-contain col-span-1 justify-self-end" />
   </div>
 </template>
